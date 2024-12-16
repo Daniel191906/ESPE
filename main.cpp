@@ -1,36 +1,74 @@
 #include <iostream>
 
 using namespace std;
+string NYA (string a, string b);
+string DN (string a);
+string FECHA (string a, string b, string c);
+int main()
+{
+    string n1,n2;
+    cout <<"Introduzca su primer nombre" << endl;
+    cin >> n1;
+    cout <<"Introduzca su segundo nombre"<< endl;
+    cin >> n2;
 
-int main() {
-    float batteryVoltage;
-    float resistance;
-    bool switchState;
-    const float ledVoltage = 2.0; // Voltaje necesario para encender el LED en voltios
-    bool ledState = false;
+    string resultado = NYA(n1,n2);
 
-    cout << "Ingrese el voltaje de la bateria en voltios: ";
-    cin >> batteryVoltage;
-    cout << "Ingrese el valor de la resistencia en ohmios: ";
-    cin >> resistance;
-    char switchInput;
-    cout << "Ingrese el estado del interruptor e para encender, a para apagar: ";
-    cin >> switchInput;
-    switchState = (switchInput == 'e');
 
-    if (switchState) {
-        float current = batteryVoltage / resistance; // Calcular la corriente usando la Ley de Ohm: I = V / R
 
-        if (batteryVoltage >= ledVoltage && current > 0) {
-            ledState = true;
-        } else {
-            ledState = false;
-        }
-    } else {
-        ledState = false;
-    }
+    string a1,a2;
+    cout <<"Introduzca su primer apellido" << endl;
+    cin >> a1;
+    cout <<"Introduzca su segundo apellido"<< endl;
+    cin >> a2;
 
-    cout << "Estado del LED: " << (ledState ? "Encendido" : "Apagado") << endl;
+    string resultado2 = NYA(a1,a2);
+
+
+
+    string c1;
+    cout <<"Introduzca su numero de cedula" << endl;
+    cin >> c1;
+
+    string resultado3 = DN(c1);
+
+
+    string c2;
+    cout <<"Introduzca su fecha de nacimiento" << endl;
+    cin >> c2;
+
+    string resultado4 = DN(c2);
+
+
+
+    cout <<"Nombres: " <<resultado<< endl;
+    cout <<"Apellidos: " <<resultado2<< endl;
+    cout <<"Numero de cedula: " <<resultado3<< endl;
+    cout <<"Fecha de nacimiento: " <<resultado3<< endl;
+
+
 
     return 0;
 }
+string NYA (string X1, string X2)
+{
+    string texto;
+    texto = (X1 + X2);
+    return texto;
+}
+
+string DN (string X1)
+{
+    string texto;
+    texto = (X1);
+    return texto;
+}
+string FECHA (string x, string y, string z)
+{
+    string texto;
+    texto = (x+y+z);
+    return texto;
+}
+
+
+
