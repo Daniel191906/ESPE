@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1738932088 source:c:\users\g406\desktop\string_arreglos\main.cpp
+	<iostream>
+	<string>
+	<algorithm>
+	"C:\Users\G406\Desktop\STRING_ARREGLOS\TI3PD_DECLARAR.h"
+
+1738932242 c:\users\g406\desktop\string_arreglos\ti3pd_declarar.h
+	<iostream>
+	<string>
+	<algorithm>
+
