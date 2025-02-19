@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1739971920 source:c:\users\g406\desktop\proyecto_daniel_taipe\main.cpp
+	<iostream>
+	<vector>
+	"C:\Users\G406\Desktop\PROYECTO_DANIEL_TAIPE\creartaipe.h"
+	"C:\Users\G406\Desktop\PROYECTO_DANIEL_TAIPE\mostrartaipe.h"
+
+1739973045 c:\users\g406\desktop\proyecto_daniel_taipe\creartaipe.h
+	<iostream>
+	<vector>
+
+1739970252 c:\users\g406\desktop\proyecto_daniel_taipe\mostrartaipe.h
+	<iostream>
+	<vector>
+
